@@ -1,0 +1,10 @@
+path: d:/ai_detect/sih 2026/ml/datasets/yolo_pilot
+train: images/train
+val: images/val
+test: images/test
+nc: 4
+names:
+  0: early_blight
+  1: late_blight
+  2: bacterial_spot
+  3: septoria_leaf_spot

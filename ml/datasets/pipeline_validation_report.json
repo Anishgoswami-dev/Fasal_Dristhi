@@ -1,0 +1,95 @@
+{
+  "timestamp": "2026-09-18 13:43:02",
+  "splits_manifest_found": true,
+  "partition_counts": {
+    "train": 6991,
+    "val": 1748,
+    "test": 10547,
+    "total": 19286,
+    "seed": 42
+  },
+  "batch_loading_test": {
+    "train": {
+      "batch_shape": [
+        32,
+        3,
+        224,
+        224
+      ],
+      "labels_shape": [
+        32
+      ],
+      "dtype": "torch.float32",
+      "sample_min_val": -2.118,
+      "sample_max_val": 2.64
+    },
+    "val": {
+      "batch_shape": [
+        32,
+        3,
+        224,
+        224
+      ],
+      "labels_shape": [
+        32
+      ],
+      "dtype": "torch.float32",
+      "sample_min_val": -2.118,
+      "sample_max_val": 2.64
+    },
+    "test": {
+      "batch_shape": [
+        32,
+        3,
+        224,
+        224
+      ],
+      "labels_shape": [
+        32
+      ],
+      "dtype": "torch.float32",
+      "sample_min_val": -2.118,
+      "sample_max_val": 2.64
+    }
+  },
+  "transform_verification": {
+    "train_has_augmentation": true,
+    "train_crop_size": 224,
+    "val_has_augmentation": false,
+    "val_crop_size": 224,
+    "test_has_augmentation": false,
+    "test_crop_size": 224,
+    "normalization": {
+      "mean": [
+        0.485,
+        0.456,
+        0.406
+      ],
+      "std": [
+        0.229,
+        0.224,
+        0.225
+      ]
+    }
+  },
+  "hash_isolation_audit": {
+    "train_val_overlap_count": 0,
+    "train_test_overlap_count": 0,
+    "val_test_overlap_count": 0,
+    "train_heldout_overlap_count": 0,
+    "val_heldout_overlap_count": 0
+  },
+  "class_imbalance": {
+    "train_min_count": 19,
+    "train_max_count": 717,
+    "train_median_count": 146.0,
+    "train_imbalance_ratio": 37.74,
+    "min_class": "Potato___healthy",
+    "max_class": "Tomato___Tomato_Yellow_Leaf_Curl_Virus"
+  },
+  "corrupted_images": [],
+  "model_untouched": true,
+  "is_pipeline_valid": true,
+  "issues": [],
+  "model_file_size": 9328715
+}

@@ -1,0 +1,39 @@
+# Node & Frontend dependencies
+node_modules/
+*/node_modules/
+dist/
+*/dist/
+.vite/
+
+# Python & ML
+venv/
+*/venv/
+.venv/
+*/.venv/
+env/
+*/env/
+__pycache__/
+*/__pycache__/
+*.py[cod]
+*$py.class
+*.ipynb_checkpoints/
+.pytest_cache/
+
+# Large raw datasets (download via script/Kaggle)
+ml/datasets/plantvillage/
+ml/datasets/plantvillage_isolated/
+datasets/plantvillage/
+datasets/plantvillage_isolated/
+
+# Environment files & Secrets
+.env
+.env.*
+!.env.example
+*.pem
+
+# IDE & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+.ref-frames/

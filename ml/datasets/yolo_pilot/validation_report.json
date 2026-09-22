@@ -1,0 +1,42 @@
+{
+  "dataset_root": "d:\\ai_detect\\sih 2026\\ml\\datasets\\yolo_pilot",
+  "target_classes_count": 4,
+  "layout": "standard",
+  "is_valid": true,
+  "total_images": 250,
+  "total_labels": 0,
+  "total_bounding_boxes": 0,
+  "class_distribution": {
+    "0": 0,
+    "1": 0,
+    "2": 0,
+    "3": 0
+  },
+  "errors": [],
+  "warnings": [
+    "Split 'train': 175 images lack a .txt label file (e.g. ['00383159-b435-48d6-b390-5d1e4b746290.JPG', '005dc47d-b646-4ba7-a583-d200b8e782ad.JPG', '01217ea7-b8f9-48a3-a7a5-c317385b0439.JPG'])",
+    "Split 'val': 35 images lack a .txt label file (e.g. ['0d320a52-403a-44ac-95e1-e1905f1c2221.JPG', '15c53a87-6518-483e-be77-0a9a761be704.JPG', '1c9649fd-cc7e-4a18-9e3a-b1473f5b285b.JPG'])",
+    "Split 'test': 40 images lack a .txt label file (e.g. ['06dcde27-0f0e-4b4c-9174-5a99192e2c4a.JPG', '0b97e882-fa7f-4faa-b170-5e408263532d.JPG', '0c68960c-8501-4cf9-9c62-92d871d7ee46.JPG'])"
+  ],
+  "leakage_detected": [],
+  "splits_summary": {
+    "train": {
+      "images": 175,
+      "labels": 0,
+      "boxes": 0,
+      "missing_labels": 175
+    },
+    "val": {
+      "images": 35,
+      "labels": 0,
+      "boxes": 0,
+      "missing_labels": 35
+    },
+    "test": {
+      "images": 40,
+      "labels": 0,
+      "boxes": 0,
+      "missing_labels": 40
+    }
+  }
+}
