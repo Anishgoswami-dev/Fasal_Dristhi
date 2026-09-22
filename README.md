@@ -243,7 +243,7 @@ Open your browser at `http://localhost:5173`.
 ## 👥 Smart India Hackathon (SIH 2026) Team
 - **Project Name:** Fasal Dristhi (फसल दृष्टि)
 - **Repository:** [https://github.com/Anishgoswami-dev/Fasal_Dristhi](https://github.com/Anishgoswami-dev/Fasal_Dristhi)
-- **Developer & Lead:** Anish Goswami ([@Anishgoswami-dev](https://github.com/Anishgoswami-dev))
+- **Developer & Member of SIH :** Anish Goswami ([@Anishgoswami-dev](https://github.com/Anishgoswami-dev))
 - **Email:** `anishgoswami20006@gmail.com`
 
 ---
