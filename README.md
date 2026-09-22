@@ -26,42 +26,42 @@
 
 ```mermaid
 flowchart TD
-    subgraph Farmer_Interface ["🌾 Farmer Client Layer (React 18 + Vite)"]
-        A[📸 Farmer Captures / Uploads Leaf Specimen] --> B[🌱 Select Crop & Field Context]
-        B --> C[🎨 Dual Theme Engine (Light / Dark Mode)]
-        C --> D[📤 Submit Diagnosis Request]
+    subgraph Farmer_Interface ["Farmer Client Layer - React 18 and Vite"]
+        A["Farmer Captures or Uploads Leaf Specimen"] --> B["Select Crop and Field Context"]
+        B --> C["Dual Theme Engine - Light and Dark Mode"]
+        C --> D["Submit Diagnosis Request"]
     end
 
-    subgraph Backend_Gateway ["🚀 API Gateway & Orchestration (Node.js / Express)"]
-        D --> E{Cloudinary / Storage}
-        E -->|Upload & URL| F[Express REST API Gateway]
-        F -->|JSON Payload + Image Buffer| G[FastAPI Inference Service :8000]
-        F --> H[(MongoDB Atlas DB)]
-        H -->|Save Diagnosis History & User Records| F
+    subgraph Backend_Gateway ["API Gateway and Orchestration - Node.js and Express"]
+        D --> E["Cloudinary Storage CDN"]
+        E -->|Upload and URL| F["Express REST API Gateway"]
+        F -->|JSON Payload and Image Buffer| G["FastAPI Inference Service Port 8000"]
+        F --> H[("MongoDB Atlas Database")]
+        H -->|Save Diagnosis History and User Records| F
     end
 
-    subgraph ML_Pipeline ["🧠 Machine Learning & Computer Vision Microservice"]
-        G --> I[Input Normalization & Resizing 224x224 / 640x640]
-        I --> J[🔍 Multi-Angle Foliage Validation]
+    subgraph ML_Pipeline ["Machine Learning and Computer Vision Microservice"]
+        G --> I["Input Normalization and Resizing 224x224 and 640x640"]
+        I --> J["Multi-Angle Foliage Validation"]
         
-        J --> K[🧬 Disease Classification]
-        K --> K1["MobileNetV2 / EfficientNet-B0"]
-        K1 --> L["🌡️ Temperature Scaling Calibration (T ≈ 1.32)"]
+        J --> K["Disease Classification"]
+        K --> K1["MobileNetV2 and EfficientNet-B0"]
+        K1 --> L["Temperature Scaling Calibration T = 1.32"]
         
-        J --> M[🎯 Foliar Lesion Localization]
+        J --> M["Foliar Lesion Localization"]
         M --> M1["YOLOv8 Bounding Box Detection"]
-        M1 --> N["📊 Severity & Foliage Coverage Ratio (%)"]
+        M1 --> N["Severity and Foliage Coverage Ratio Percentage"]
         
-        L & N --> O["📚 ICAR & CIB&RC Knowledge Engine"]
-        O --> P["💊 Standardized Treatment Formulation & Pump Dosages"]
+        L & N --> O["ICAR and CIB-RC Knowledge Engine"]
+        O --> P["Standardized Treatment Formulation and Pump Dosages"]
     end
 
-    subgraph Decision_Support ["📋 Farmer Decision Support Output"]
-        P --> Q[📄 JSON Diagnosis Response]
-        Q --> R["🔲 Interactive CV Bounding Box Overlay"]
-        Q --> S["🖨️ Kisan Dawa Parchi (Printable Prescription)"]
-        Q --> T["📈 Follow-up Treatment & Recovery Tracker"]
-        Q --> U["🛒 Agri-Marketplace Links (AgroStar / BigHaat)"]
+    subgraph Decision_Support ["Farmer Decision Support Output"]
+        P --> Q["JSON Diagnosis Response"]
+        Q --> R["Interactive CV Bounding Box Overlay"]
+        Q --> S["Kisan Dawa Parchi - Printable Prescription"]
+        Q --> T["Follow-up Treatment and Recovery Tracker"]
+        Q --> U["Agri-Marketplace Links - AgroStar and BigHaat"]
     end
 
     G -.-> Q
