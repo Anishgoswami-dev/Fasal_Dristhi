@@ -11,15 +11,6 @@
 [![MongoDB](https://img.shields.io/badge/Database-MongoDB_Atlas-47A248.svg?logo=mongodb&logoColor=white)](https://www.mongodb.com/)
 [![Theme](https://img.shields.io/badge/UI-Dynamic_Light_%2F_Dark_Mode-blueviolet.svg)](#)
 
-<div align="center">
-
-### 🌐 **Live Web Application:**
-### 👉 **[https://anishgoswami-dev.github.io/Fasal_Dristhi/](https://anishgoswami-dev.github.io/Fasal_Dristhi/)** 👈
-
-[![Open Live Web App](https://img.shields.io/badge/🚀_OPEN_LIVE_APP-Visit_Fasal_Dristhi-16a34a?style=for-the-badge&logo=google-chrome&logoColor=white)](https://anishgoswami-dev.github.io/Fasal_Dristhi/)
-
-</div>
-
 ---
 
 ## 📱 App Preview & Visual Showcase
